@@ -28,6 +28,8 @@
 13. git status
 14. git add .
 15. git commit -m '초기화면 경로 변경'
+16. git log
+17. 
 
 ## Netlify.com  [https://stupefied-roentgen-d3762f.netlify.app]
 1. netlify.com > LogIn
