@@ -1,4 +1,5 @@
-# STEP02 (Starbucks)
+# STEP02 (Starbucks) 
+[https://github.com/ParkYoungWoong/starbucks-vanilla-app]
 
 1. favicon
 2. reset.css
@@ -64,3 +65,36 @@
 - swiperjs.com
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+11. 비율 계산
+- 100% : 56.25% = 16:9
+- .container {
+    width: 200px;
+    backgrouond-color: royalblue;
+  }
+  .container .item {
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%  // 16:9 비율
+  }
+  {
+    top: 50%;
+    margin-top: calc(1920px * 9 / 16 / -2);
+  }
+
+12. Youtube 삽입
+- google > youtube iframe api > https://developers.google.com/youtube/iframe_api_reference
+
+13. floating images
+- google > gsap easing > https://greensock.com/docs/v2/Easing
+
+14. 랜덤함수
+- {
+    // 범위 랜덤 함수(소수점 2자리까지)
+    function random(min, max) {
+      // `.toFixed()`를 통해 반환된 문자 데이터를,
+      // `parseFloat()`을 통해 소수점을 가지는 숫자 데이터로 변환
+      return parseFloat((Math.random() * (max - min) + min).toFixed(2))
+    } 
+  } 
+
