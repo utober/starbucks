@@ -49,3 +49,7 @@
 6. git branch
     +   master
     + * signin
+7. [signin] file 생성 및 수정
+8. git add .
+
+
