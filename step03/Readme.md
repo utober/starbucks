@@ -51,5 +51,6 @@
     + * signin
 7. [signin] file 생성 및 수정
 8. git add .
+9. git commit -m "공통 모듈 분리"
 
 
