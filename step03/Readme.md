@@ -29,9 +29,28 @@
 14. git add .
 15. git commit -m '초기화면 경로 변경'
 16. git log
-17. 
+17. git add . [새로운내용추가]
+18. git commit -m '새로운 파일 추가'
+19. git push origin master 
 
 ## Netlify.com  [https://stupefied-roentgen-d3762f.netlify.app]
 1. netlify.com > LogIn
 2. Create a new site > GitHub
+
+
+## Git [branch 관리]
+1. git branch     => master   : (branch목록)
+2. git branch -a  => remotes/origin/master 
+3. git branch signin  => signin 브랜치 
+4. git branch
+    + * master
+    +   signin
+5. git checkout signin  => Switched to branch 'signin'
+6. git branch
+    +   master
+    + * signin
+7. [signin] file 생성 및 수정
+8. git add .
+9. git commit -m "공통 모듈 분리"
+
 
