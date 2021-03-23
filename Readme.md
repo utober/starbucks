@@ -10,3 +10,11 @@
 ## Step03
   - Git
 
+## Step04
+  - Markdown
+
+## Step05
+  - JavaScript Essentials - Node.js
+
+## Step06
+  - JavaScript Essentials - JS

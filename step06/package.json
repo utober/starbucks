@@ -1,0 +1,21 @@
+{
+  "name": "step06",
+  "version": "1.0.0",
+  "description": "JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "l": "^0.6.0",
+    "lodash": "^4.17.21"
+  }
+}
